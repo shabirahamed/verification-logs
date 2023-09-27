@@ -4,34 +4,33 @@
         "country": "IND",
         "city": "std:080",
         "action": "on_issue_status",
-        "core_version": "1.1.0",
+        "core_version": "1.0.0",
         "bap_id": "buyer.ondc.digiledge.in",
         "bap_uri": "https://buyer.ondc.digiledge.in/v1/preprod",
         "bpp_id": "seller.ondc.digiledge.in",
         "bpp_uri": "https://seller.ondc.digiledge.in/v1/preprod",
-        "transaction_id": "ad5af0a2-0c41-4261-8019-0f504b741c20",
-        "message_id": "f524a2fa-1e0f-4f07-9b79-da193314d2fc",
-        "timestamp": "2023-08-01T18:25:10.486Z",
-        "ttl": "PT30S"
+        "transaction_id": "f09b9a1c-386f-49b2-a5aa-34a2175f3e26",
+        "message_id": "94b73143-83a1-45fc-b416-a21e83d5690f",
+        "timestamp": "2023-09-05T07:29:17.732Z"
     },
     "message": {
         "issue": {
-            "id": "3756f244-16b6-4b16-ba19-f4c9a5f6870c",
+            "id": "96d252d9-ba65-46ec-bdc7-b85af2f31a7e",
             "issue_actions": {
                 "respondent_actions": [
                     {
                         "respondent_action": "PROCESSING",
-                        "updated_at": "2023-08-01T18:21:26.555Z",
+                        "updated_at": "2023-09-05T07:08:59.915Z",
                         "updated_by": {
                             "org": {
-                                "name": "seller.ondc.digiledge.in::ONDC:RET10"
+                                "name": "seller.ondc.digiledge.in::nic2004:52110"
                             },
                             "contact": {
-                                "phone": "9781341222",
-                                "email": "shabir@gmail.com"
+                                "phone": "9888988890",
+                                "email": "vishnu@mail.com"
                             },
                             "person": {
-                                "name": "Shabir"
+                                "name": "Vishnu"
                             }
                         },
                         "short_desc": "Complaint is being processed",
@@ -39,17 +38,17 @@
                     },
                     {
                         "respondent_action": "RESOLVED",
-                        "updated_at": "2023-01-15T10:31:00.523Z",
+                        "updated_at": "2023-09-05T07:29:17.732Z",
                         "updated_by": {
                             "org": {
-                                "name": "buyer.ondc.digiledge.in"
+                                "name": "seller.ondc.digiledge.in::nic2004:52110"
                             },
                             "contact": {
-                                "phone": "8888888888",
-                                "email": "shabir@gmiail.com"
+                                "phone": "9888988890",
+                                "email": "vishnu@mail.com"
                             },
                             "person": {
-                                "name": "Shabir"
+                                "name": "Vishnu"
                             }
                         },
                         "short_desc": "Complaint resolved",
@@ -62,30 +61,29 @@
                     "type": "TRANSACTION-COUNTERPARTY-NP",
                     "organization": {
                         "org": {
-                            "name": "sellerapp.com::ONDC:RET10"
+                            "name": "seller.ondc.digiledge.in::nic2004:52110"
                         },
                         "contact": {
-                            "phone": "8888888888",
-                            "email": "shabir@gmiail.com"
+                            "phone": "9888988890",
+                            "email": "vishnu@mail.com"
                         },
                         "person": {
-                            "name": "Shabir"
+                            "name": "Vishnu"
                         }
                     },
                     "resolution_support": {
-                        "chat_link": "http://chat-link/respondent",
                         "contact": {
-                            "phone": "8888888888",
-                            "email": "shabir@gmiail.com"
+                            "phone": "9888988890",
+                            "email": "vishnu@mail.com"
                         },
                         "gros": [
                             {
                                 "person": {
-                                    "name": "Shabir"
+                                    "name": "jithesh"
                                 },
                                 "contact": {
-                                    "phone": "8888888888",
-                                    "email": "shabir@gmiail.com"
+                                    "phone": "9087666666",
+                                    "email": "jithesh@gro.com"
                                 },
                                 "gro_type": "TRANSACTION-COUNTERPARTY-NP-GRO"
                             }
@@ -94,13 +92,12 @@
                 }
             },
             "resolution": {
-                "short_desc": "Refund to be initiated",
-                "long_desc": "For this complaint, refund is to be initiated",
-                "action_triggered": "REFUND",
-                "refund_amount": "35"
+                "short_desc": "Resolved",
+                "long_desc": "resolution resolved",
+                "action_triggered": "CANCEL"
             },
-            "created_at": "2023-08-01T12:51:26.339Z",
-            "updated_at": "2023-08-01T18:25:00.814Z"
+            "created_at": "2023-09-05T07:08:59.496Z",
+            "updated_at": "2023-09-05T07:29:17.732Z"
         }
     }
 }
